@@ -1,0 +1,8 @@
+controller\DetailController.class
+context\DBContext.class
+controller\HomeController.class
+dao\DigitalNewsDAO.class
+controller\SearchController.class
+config\Config.class
+entity\DigitalNews.class
+service\DigitalNewsService.class
