@@ -1,0 +1,46 @@
+.fb{
+    margin-top:25px;
+    margin-bottom:20px;
+    width:600px;
+}
+.contact-row{
+    margin:10px 0;
+    display:flex;
+    justify-content:space-between;
+}
+.input-field input,textarea{
+    width:295px;
+    padding:9px 7px;
+    border:1px solid #f1f1f1;
+    border-radius:6px;
+}
+.input-field:first-child{
+    margin-right:20px;
+}
+.message textarea{
+    width:610px;
+    height:240px;
+    resize:none;
+}
+.submit-button{
+    margin:5px 0;
+    display:flex;
+    width:610px;
+    justify-content:flex-end;
+}
+.btn-submit{
+    padding:4px 12px;
+    border-radius:18px;
+    background-color:#949293;
+    border:none;
+    line-height:22px;
+    color:#fff;
+}
+.sent{
+    background-color:#949293;
+}
+.done{
+    background-color:#eee;
+    cursor: not-allowed;
+    pointer-events:none;
+}

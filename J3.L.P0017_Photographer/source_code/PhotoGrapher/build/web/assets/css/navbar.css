@@ -1,0 +1,28 @@
+nav{
+    background:#303030;
+    font-family:serif;
+}
+nav ul{
+    display:flex;
+    width:1000px;
+    margin:0 auto;
+    padding:14px 0px;    
+    list-style-type:none;
+    align-items:center;
+}
+nav li{   
+    display:inline-block;
+    border-right:1px solid lightgray;
+    padding-right:15px;
+}
+nav li:not(:last-child){
+    margin-right:15px;
+}
+nav li a{
+    font-size:15px;
+    text-decoration: none;
+    color:#fff;
+}
+.active{
+    font-weight:600;
+}

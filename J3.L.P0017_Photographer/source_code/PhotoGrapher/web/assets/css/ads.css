@@ -1,0 +1,30 @@
+.ads-box{
+    background:transparent;
+    width:225px;
+    color:#fff;
+}
+.ads-title{
+    padding:8px 12px;
+    background-color:#303030;
+    font-size:22px;
+    font-family:serif;
+    font-weight:500;    
+}
+.share-list{
+    padding:10px;
+}
+.share-list li{
+    margin-top:8px;
+}
+.share-item{
+    display:flex;
+}
+.share-item a{
+    font-size:16px;
+    margin-left:6px;
+    text-decoration: underline;
+    color:#fff;
+}
+.ads-box ul{
+    list-style:none;
+}

@@ -1,0 +1,33 @@
+.image-intro{
+    width:660px;
+    height:auto;
+    margin-bottom:5px;
+}
+.intro-description{
+    font-style: italic;
+    font-size:14px;
+}
+.gallery{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.gallery-item{
+    padding:5px;
+}
+.gallery-item a{
+    color:#fff;
+}
+.gallery-item img{
+    width:215px;
+}
+.gallery-description{
+    margin-top:10px;
+}
+.about-me{
+    margin-top:40px;
+    margin-bottom:30px;
+}
+.about-me .about-me-description{
+    margin-top:5px;
+}
